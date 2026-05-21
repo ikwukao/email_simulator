@@ -12,8 +12,8 @@ class Email:
     def display_full_email(self):
         self.mark_as_read()
         print("\n--- Email ---")
-        print(f"From: {sender}")
-        print(f"To: {receiver}")
+        print(f"From: {self.sender}")
+        print(f"To: {self.receiver}")
 
         print(f"From: {self.sender.name}")
         print(f"To: {self.receiver.name}")
